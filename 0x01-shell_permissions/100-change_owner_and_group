@@ -1,0 +1,3 @@
+#!/bin/bash
+cwd=$(pwd)
+chown -R vincent:staff $cwd
