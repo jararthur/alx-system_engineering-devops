@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep ^d | grep -v '^d\s\.' | wc -l
+ls -t | head -n 10
