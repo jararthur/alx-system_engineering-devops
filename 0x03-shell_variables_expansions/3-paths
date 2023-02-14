@@ -1,1 +1,2 @@
 #!/bin/bash
+IFS=:; set -- $PATH; echo "$#"
