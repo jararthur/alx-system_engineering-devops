@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -o -type d -empty | awk -F/ 'NF>1{print $(NF)}'
+find . -type f -empty -o -type d -empty | while read -r f; do echo "$(basename "$
