@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 | paste -s -d ''
+read -p "Enter the acrostic to decode: " a && for i in $a; do printf ${i:0:1}; done; echo
