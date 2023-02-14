@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | tr -c -d ':' | awk '{print length}'
+echo $PATH | tr ":" "\n" | wc -l
